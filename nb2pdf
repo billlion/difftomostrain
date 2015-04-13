@@ -1,9 +1,7 @@
 (* the #! path to mathematica script did not work on a mac so this is the script *)
 (* Convert Mathematica notebooks to PDFs                              *)
-(*   usage: nb2pdf file1.nb file2.nb etc...                           *)
-(* outputs: file1.pdf file2.pdf etc...  into the current directoy     *)
-(* If called with no filenames, this script                           *)
-(*    will convert all notebook files in the current directory        *)
+(*   age MathematicaScript -script nb2pdf                            *)
+(*    converts all notebook files in the current directory        *)
 
 dir = Directory[];
 files = {};
